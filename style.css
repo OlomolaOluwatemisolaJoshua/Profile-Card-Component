@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=League+Spartan:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/bg-pattern-top.svg);
+    background-image: url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+img{
+    border: 5px solid hsl(0, 0%, 100%);
+    border-radius: 100%;
+    position: absolute;
+    top: 150px;
+    left: 710px;
+}
+img:hover{
+    cursor: pointer;
+}
+.mainDiv{
+    border: 2px solid transparent;
+    /* border-radius: 20px; */
+    width: 30%;
+    margin: 50px auto;
+    height: 60vh;
+}
+.Upperdiv{
+    background-image: url(images/bg-pattern-card.svg);
+    height: 30%;
+    padding: 20px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.london{
+    color: hsl(0, 0%, 59%);
+}
+.londonn{
+    color: hsl(0, 0%, 59%);
+    display: flex   ;
+    justify-content: center;
+}
+.divv{
+    height: 67%;
+    border: 2px solid transparent;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.divvv{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 13px;
+}
+.div2{
+    border-top: 2px solid hsl(227, 10%, 46%);
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+}
+.div3{
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+}
+.divv1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+.divv2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+Bridgerton Altered Carbon Lovesick
+.divv3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+@media screen and (max-width: 600px) {
+    body{
+        padding: 10px;
+        max-width: 100%;
+    }
+    .mainDiv{
+        width: 100%;
+        height: 80vh;
+    }
+    img{
+        border: 5px solid hsl(0, 0%, 100%);
+        border-radius: 100%;
+        position: absolute;
+        top: 25%;
+        left: 35%;
+    }
+    .divv{
+        gap: 30px;
+    }
+}
+@media screen and (max-width: 1120px) {
+    body{
+        padding: 10px;
+        max-width: 100%;
+    }
+    .mainDiv{
+        width: 100%;
+        height: 80vh;
+    }
+    img{
+        border: 5px solid hsl(0, 0%, 100%);
+        border-radius: 100%;
+        position: absolute;
+        top: 25%;
+        left: 45%;
+    }
+    .divv{
+        gap: 30px;
+    }
+}
