@@ -16,9 +16,10 @@ body{
 img{
     border: 5px solid hsl(0, 0%, 100%);
     border-radius: 100%;
+    display: inline-block;
     position: absolute;
-    top: 150px;
-    left: 710px;
+    top: 20%;
+    left: 46%;
 }
 img:hover{
     cursor: pointer;
@@ -94,7 +95,6 @@ img:hover{
     align-items: center;
     gap: 6px;
 }
-Bridgerton Altered Carbon Lovesick
 .divv3{
     display: flex;
     flex-direction: column;
@@ -112,11 +112,8 @@ Bridgerton Altered Carbon Lovesick
         height: 80vh;
     }
     img{
-        border: 5px solid hsl(0, 0%, 100%);
-        border-radius: 100%;
-        position: absolute;
-        top: 25%;
-        left: 35%;
+        top: 0;
+        left: 0;
     }
     .divv{
         gap: 30px;
